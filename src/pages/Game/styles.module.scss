@@ -1,0 +1,27 @@
+
+
+.spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  width: 301px;
+  height: 301px;
+  border: 8px dotted;
+  border-top-color: hsl(216,87%,52%);
+  border-left-color: hsl(216,87%,52%);
+  border-bottom-color:hsl(216,87%,52%);
+  border-right-color: hsl(216,87%,52%);
+  border-radius: 50%;
+  transform: rotate(40deg);
+  margin: 30px auto;
+  animation: loading 1.8s linear infinite;
+
+}
+
+
+
+@keyframes loading {
+    0% { transform: translate(-9px, -25px) rotate(0deg); }
+  100% { transform: translate(-9px, -25px) rotate(360deg); }
+}
